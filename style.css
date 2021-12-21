@@ -1,0 +1,14 @@
+div{
+    background-color: aquamarine;
+    width: 20px;
+    height: 20px;
+}
+
+.container{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
