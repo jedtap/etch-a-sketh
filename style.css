@@ -1,14 +1,55 @@
-div{
-    background-color: aquamarine;
-    width: 20px;
-    height: 20px;
+html{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    margin: 0;
+    padding: 0 10%;
+}
+
+body{
+    max-width: 760px;
+    background-image: url("bg.png");
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+}
+
+p{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .container{
-    width: 320px;
-    height: 320px;
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    border: 3px solid rgb(160, 160, 160);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button{
+    width: 120px;
+    height: 30px;
+}
+
+.buttons{
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
+}
+
+.subset{
+    display: flex   ;
+    gap: 0 10px;
 }
